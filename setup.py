@@ -12,8 +12,8 @@ def get_version(filename):
 
 
 setup(
-    name='Mopidy-Party',
-    version=get_version('mopidy_party/__init__.py'),
+    name='Mopidy-Jukebox',
+    version=get_version('mopidy_jukebox/__init__.py'),
     url='https://github.com/croweg/mopidy-jukebox/',
     license='Apache License, Version 2.0',
     author='Mathieu Arthur, Schaeffer Quentin',
@@ -31,7 +31,7 @@ setup(
     
     entry_points={
         'mopidy.ext': [
-            'party = mopidy_party:Extension',
+            'jukebox = mopidy_jukebox:Extension',
         ],
       },
     
