@@ -4,11 +4,11 @@ import os
 
 from mopidy import config, ext
 
-__version__ = '0.2.1'
+__version__ = '0.0.2'
 
 class Extension(ext.Extension):
-    dist_name = 'Mopidy-Party'
-    ext_name = 'party'
+    dist_name = 'Mopidy-Jukebox'
+    ext_name = 'jukebox'
     version = __version__
     
     def get_default_config(self):
