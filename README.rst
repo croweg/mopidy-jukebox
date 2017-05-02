@@ -16,12 +16,6 @@ Il vous suffit ensuite d'executer cette commande pour l'installer::
 
     sudo pip install Mopidy-Jukebox
 
-Project resources
-=================
-
-- `Source code <https://github.com/Lesterpig/mopidy-party>`_
-- `Issue tracker <https://github.com/Lesterpig/mopidy-party/issues>`_
-
 Changelog
 =========
 
